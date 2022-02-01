@@ -1,4 +1,5 @@
-def autobiography():
+#Below is a function about a person biography
+def biography():
   print("Let's get acquainted!!")
   user_surname = input("What's your surname?\n")
   user_height = int(input ("How tall are you in centimeter?\n"))
@@ -14,4 +15,4 @@ def autobiography():
   user_denomination = input("What is your religious background?\n ")
   print(f"Well, this is what I've learned about you thus far. Your last name is {user_surname}. You are a {user_denomination} residing in {user_residing_state}. You are {user_age} years old. you are about {user_height} centimeters tall and weight about {user_weight} pounds. You have {user_eyes_color} eyes. Furthermore, you are from a {user_race} race and speak about {user_languages} languages. Oh, yeah, you was born in the month of {user_birth_month} and your favorite color is {user_fav_color}.")
 
-autobiography()
+biography()
