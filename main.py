@@ -1,4 +1,4 @@
-#Below is a function about a person biography
+#Below is a function about a person biography#
 def biography():
   print("Let's get acquainted!!")
   user_surname = input("What's your surname?\n")
