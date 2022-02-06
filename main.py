@@ -16,3 +16,5 @@ def biography():
   print(f"Well, this is what I've learned about you thus far. Your last name is {user_surname}. You are a {user_denomination} residing in {user_residing_state}. You are {user_age} years old. you are about {user_height} centimeters tall and weight about {user_weight} pounds. You have {user_eyes_color} eyes. Furthermore, you are from a {user_race} race and speak about {user_languages} languages. Oh, yeah, you was born in the month of {user_birth_month} and your favorite color is {user_fav_color}.")
 
 biography()
+
+# I like that you used a function. Remember that function names should generally discribe the action(s) performed by the function. Maybe 'collect_bio_info()' instead of just biography(). 
